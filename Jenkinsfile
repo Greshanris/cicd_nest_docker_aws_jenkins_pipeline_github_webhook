@@ -38,7 +38,7 @@ pipeline {
             }
         }
 
-        stage ('Send Email Notification') {
+        stage ('Send Email Notifications') {
             steps {
                 emailtext(
                     subject: "NestJS App Deployed Successfully on EC2!",
